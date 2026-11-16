@@ -1,0 +1,3 @@
+Le ossa mostrate derivano dalle mesh del modello MS-Human-700 (https://github.com/LNSGroup/MS-Human-700),
+distribuito con licenza Apache 2.0 (vedi LICENSE-MS-Human-700.txt). Modifiche: conversione di formato,
+semplificazione delle mesh e riferimento per segmento.

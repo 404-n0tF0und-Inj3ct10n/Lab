@@ -1,0 +1,1335 @@
+{
+ "source": "MS-Human-700 (LNSGroup, licenza Apache 2.0), mesh semplificate; vedi LICENSE-MS-Human-700.txt",
+ "capturePose": "coordinate a zero, gomiti flessi a 90 gradi",
+ "refLengths": {
+  "trunk": 0.5278397449930442,
+  "thigh": 0.404426979204008,
+  "shank": 0.400124980474851,
+  "upperArm": 0.2907243711834286,
+  "forearm": 0.2581225310002984,
+  "shoulderWidth": 0.3410120545002846,
+  "hipWidth": 0.15451999999999996
+ },
+ "meshes": [
+  {
+   "file": "r_pelvis",
+   "body": "pelvis",
+   "segment": "pelvis",
+   "side": "",
+   "vertexOffset": 0,
+   "vertexCount": 122,
+   "indexOffset": 1464,
+   "indexCount": 735
+  },
+  {
+   "file": "l_pelvis",
+   "body": "pelvis",
+   "segment": "pelvis",
+   "side": "",
+   "vertexOffset": 4404,
+   "vertexCount": 122,
+   "indexOffset": 5868,
+   "indexCount": 735
+  },
+  {
+   "file": "r_femur",
+   "body": "femur_r",
+   "segment": "thigh",
+   "side": "R",
+   "vertexOffset": 8808,
+   "vertexCount": 454,
+   "indexOffset": 14256,
+   "indexCount": 2712
+  },
+  {
+   "file": "r_tibia",
+   "body": "tibia_r",
+   "segment": "shank",
+   "side": "R",
+   "vertexOffset": 25104,
+   "vertexCount": 186,
+   "indexOffset": 27336,
+   "indexCount": 1122
+  },
+  {
+   "file": "r_fibula",
+   "body": "tibia_r",
+   "segment": "shank",
+   "side": "R",
+   "vertexOffset": 31824,
+   "vertexCount": 118,
+   "indexOffset": 33240,
+   "indexCount": 696
+  },
+  {
+   "file": "r_talus",
+   "body": "talus_r",
+   "segment": "foot",
+   "side": "R",
+   "vertexOffset": 36024,
+   "vertexCount": 95,
+   "indexOffset": 37164,
+   "indexCount": 558
+  },
+  {
+   "file": "r_foot",
+   "body": "calcn_r",
+   "segment": "foot",
+   "side": "R",
+   "vertexOffset": 39396,
+   "vertexCount": 824,
+   "indexOffset": 49284,
+   "indexCount": 4947
+  },
+  {
+   "file": "r_bofoot",
+   "body": "toes_r",
+   "segment": "foot",
+   "side": "R",
+   "vertexOffset": 69072,
+   "vertexCount": 415,
+   "indexOffset": 74052,
+   "indexCount": 2433
+  },
+  {
+   "file": "r_patella",
+   "body": "patella_r",
+   "segment": "shank",
+   "side": "R",
+   "vertexOffset": 83784,
+   "vertexCount": 70,
+   "indexOffset": 84624,
+   "indexCount": 408
+  },
+  {
+   "file": "l_femur",
+   "body": "femur_l",
+   "segment": "thigh",
+   "side": "L",
+   "vertexOffset": 86256,
+   "vertexCount": 454,
+   "indexOffset": 91704,
+   "indexCount": 2712
+  },
+  {
+   "file": "l_tibia",
+   "body": "tibia_l",
+   "segment": "shank",
+   "side": "L",
+   "vertexOffset": 102552,
+   "vertexCount": 186,
+   "indexOffset": 104784,
+   "indexCount": 1122
+  },
+  {
+   "file": "l_fibula",
+   "body": "tibia_l",
+   "segment": "shank",
+   "side": "L",
+   "vertexOffset": 109272,
+   "vertexCount": 118,
+   "indexOffset": 110688,
+   "indexCount": 696
+  },
+  {
+   "file": "l_talus",
+   "body": "talus_l",
+   "segment": "foot",
+   "side": "L",
+   "vertexOffset": 113472,
+   "vertexCount": 95,
+   "indexOffset": 114612,
+   "indexCount": 558
+  },
+  {
+   "file": "l_foot",
+   "body": "calcn_l",
+   "segment": "foot",
+   "side": "L",
+   "vertexOffset": 116844,
+   "vertexCount": 824,
+   "indexOffset": 126732,
+   "indexCount": 4947
+  },
+  {
+   "file": "l_bofoot",
+   "body": "toes_l",
+   "segment": "foot",
+   "side": "L",
+   "vertexOffset": 146520,
+   "vertexCount": 415,
+   "indexOffset": 151500,
+   "indexCount": 2433
+  },
+  {
+   "file": "l_patella",
+   "body": "patella_l",
+   "segment": "shank",
+   "side": "L",
+   "vertexOffset": 161232,
+   "vertexCount": 70,
+   "indexOffset": 162072,
+   "indexCount": 408
+  },
+  {
+   "file": "sacrum",
+   "body": "sacrum",
+   "segment": "pelvis",
+   "side": "",
+   "vertexOffset": 163704,
+   "vertexCount": 191,
+   "indexOffset": 165996,
+   "indexCount": 1134
+  },
+  {
+   "file": "lumbar5",
+   "body": "lumbar5",
+   "segment": "pelvis",
+   "side": "",
+   "vertexOffset": 170532,
+   "vertexCount": 198,
+   "indexOffset": 172908,
+   "indexCount": 1188
+  },
+  {
+   "file": "lumbar4",
+   "body": "lumbar4",
+   "segment": "pelvis",
+   "side": "",
+   "vertexOffset": 177660,
+   "vertexCount": 204,
+   "indexOffset": 180108,
+   "indexCount": 1224
+  },
+  {
+   "file": "lumbar3",
+   "body": "lumbar3",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 185004,
+   "vertexCount": 209,
+   "indexOffset": 187512,
+   "indexCount": 1254
+  },
+  {
+   "file": "lumbar2",
+   "body": "lumbar2",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 192528,
+   "vertexCount": 207,
+   "indexOffset": 195012,
+   "indexCount": 1242
+  },
+  {
+   "file": "lumbar1",
+   "body": "lumbar1",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 199980,
+   "vertexCount": 206,
+   "indexOffset": 202452,
+   "indexCount": 1236
+  },
+  {
+   "file": "thoracic12",
+   "body": "thoracic12",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 207396,
+   "vertexCount": 203,
+   "indexOffset": 209832,
+   "indexCount": 1218
+  },
+  {
+   "file": "thoracic11",
+   "body": "thoracic11",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 214704,
+   "vertexCount": 195,
+   "indexOffset": 217044,
+   "indexCount": 1170
+  },
+  {
+   "file": "thoracic10",
+   "body": "thoracic10",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 221724,
+   "vertexCount": 195,
+   "indexOffset": 224064,
+   "indexCount": 1182
+  },
+  {
+   "file": "thoracic9",
+   "body": "thoracic9",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 228792,
+   "vertexCount": 189,
+   "indexOffset": 231060,
+   "indexCount": 1134
+  },
+  {
+   "file": "thoracic8",
+   "body": "thoracic8",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 235596,
+   "vertexCount": 188,
+   "indexOffset": 237852,
+   "indexCount": 1146
+  },
+  {
+   "file": "thoracic7",
+   "body": "thoracic7",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 242436,
+   "vertexCount": 193,
+   "indexOffset": 244752,
+   "indexCount": 1173
+  },
+  {
+   "file": "thoracic6",
+   "body": "thoracic6",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 249444,
+   "vertexCount": 194,
+   "indexOffset": 251772,
+   "indexCount": 1188
+  },
+  {
+   "file": "thoracic5",
+   "body": "thoracic5",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 256524,
+   "vertexCount": 189,
+   "indexOffset": 258792,
+   "indexCount": 1146
+  },
+  {
+   "file": "thoracic4",
+   "body": "thoracic4",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 263376,
+   "vertexCount": 186,
+   "indexOffset": 265608,
+   "indexCount": 1125
+  },
+  {
+   "file": "thoracic3",
+   "body": "thoracic3",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 270108,
+   "vertexCount": 185,
+   "indexOffset": 272328,
+   "indexCount": 1125
+  },
+  {
+   "file": "thoracic2",
+   "body": "thoracic2",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 276828,
+   "vertexCount": 177,
+   "indexOffset": 278952,
+   "indexCount": 1089
+  },
+  {
+   "file": "thoracic1",
+   "body": "thoracic1",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 283308,
+   "vertexCount": 170,
+   "indexOffset": 285348,
+   "indexCount": 1035
+  },
+  {
+   "file": "rotatedcerv7",
+   "body": "head_neck",
+   "segment": "head",
+   "side": "",
+   "vertexOffset": 289488,
+   "vertexCount": 125,
+   "indexOffset": 290988,
+   "indexCount": 762
+  },
+  {
+   "file": "cerv6",
+   "body": "head_neck",
+   "segment": "head",
+   "side": "",
+   "vertexOffset": 294036,
+   "vertexCount": 123,
+   "indexOffset": 295512,
+   "indexCount": 750
+  },
+  {
+   "file": "cerv5",
+   "body": "head_neck",
+   "segment": "head",
+   "side": "",
+   "vertexOffset": 298512,
+   "vertexCount": 121,
+   "indexOffset": 299964,
+   "indexCount": 726
+  },
+  {
+   "file": "cerv4",
+   "body": "head_neck",
+   "segment": "head",
+   "side": "",
+   "vertexOffset": 302868,
+   "vertexCount": 122,
+   "indexOffset": 304332,
+   "indexCount": 744
+  },
+  {
+   "file": "cerv3",
+   "body": "head_neck",
+   "segment": "head",
+   "side": "",
+   "vertexOffset": 307308,
+   "vertexCount": 119,
+   "indexOffset": 308736,
+   "indexCount": 726
+  },
+  {
+   "file": "cerv2",
+   "body": "head_neck",
+   "segment": "head",
+   "side": "",
+   "vertexOffset": 311640,
+   "vertexCount": 124,
+   "indexOffset": 313128,
+   "indexCount": 756
+  },
+  {
+   "file": "cerv1",
+   "body": "head_neck",
+   "segment": "head",
+   "side": "",
+   "vertexOffset": 316152,
+   "vertexCount": 200,
+   "indexOffset": 318552,
+   "indexCount": 1182
+  },
+  {
+   "file": "jaw",
+   "body": "head_neck",
+   "segment": "head",
+   "side": "",
+   "vertexOffset": 323280,
+   "vertexCount": 931,
+   "indexOffset": 334452,
+   "indexCount": 5649
+  },
+  {
+   "file": "skull",
+   "body": "head_neck",
+   "segment": "head",
+   "side": "",
+   "vertexOffset": 357048,
+   "vertexCount": 2553,
+   "indexOffset": 387684,
+   "indexCount": 15615
+  },
+  {
+   "file": "Sternum",
+   "body": "sternum",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 450144,
+   "vertexCount": 108,
+   "indexOffset": 451440,
+   "indexCount": 618
+  },
+  {
+   "file": "clavicle",
+   "body": "clavicle_r",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 453912,
+   "vertexCount": 185,
+   "indexOffset": 456132,
+   "indexCount": 1101
+  },
+  {
+   "file": "scapula",
+   "body": "scapula_r",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 460536,
+   "vertexCount": 632,
+   "indexOffset": 468120,
+   "indexCount": 3906
+  },
+  {
+   "file": "humerus",
+   "body": "humerus_r",
+   "segment": "upperArm",
+   "side": "R",
+   "vertexOffset": 483744,
+   "vertexCount": 288,
+   "indexOffset": 487200,
+   "indexCount": 1710
+  },
+  {
+   "file": "ulna",
+   "body": "ulna_r",
+   "segment": "forearm",
+   "side": "R",
+   "vertexOffset": 494040,
+   "vertexCount": 189,
+   "indexOffset": 496308,
+   "indexCount": 1098
+  },
+  {
+   "file": "radius",
+   "body": "radius_r",
+   "segment": "forearm",
+   "side": "R",
+   "vertexOffset": 500700,
+   "vertexCount": 184,
+   "indexOffset": 502908,
+   "indexCount": 1095
+  },
+  {
+   "file": "hand_lunate",
+   "body": "proximal_row_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 507288,
+   "vertexCount": 249,
+   "indexOffset": 510276,
+   "indexCount": 1518
+  },
+  {
+   "file": "sdfastSCAPHOIDw",
+   "body": "proximal_row_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 516348,
+   "vertexCount": 308,
+   "indexOffset": 520044,
+   "indexCount": 1875
+  },
+  {
+   "file": "sdfastPISIFORMw",
+   "body": "proximal_row_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 527544,
+   "vertexCount": 165,
+   "indexOffset": 529524,
+   "indexCount": 1155
+  },
+  {
+   "file": "sdfastTRIQUETRALw",
+   "body": "proximal_row_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 534144,
+   "vertexCount": 207,
+   "indexOffset": 536628,
+   "indexCount": 1248
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_5mc",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 541620,
+   "vertexCount": 540,
+   "indexOffset": 548100,
+   "indexCount": 3327
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_4mc",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 561408,
+   "vertexCount": 599,
+   "indexOffset": 568596,
+   "indexCount": 3645
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_3mc",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 583176,
+   "vertexCount": 728,
+   "indexOffset": 591912,
+   "indexCount": 4458
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_2mc",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 609744,
+   "vertexCount": 765,
+   "indexOffset": 618924,
+   "indexCount": 4674
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_trapezium",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 637620,
+   "vertexCount": 277,
+   "indexOffset": 640944,
+   "indexCount": 1686
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_trapezoid",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 647688,
+   "vertexCount": 183,
+   "indexOffset": 649884,
+   "indexCount": 1101
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_hamate",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 654288,
+   "vertexCount": 279,
+   "indexOffset": 657636,
+   "indexCount": 1701
+  },
+  {
+   "file": "hand_capitate",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 664440,
+   "vertexCount": 334,
+   "indexOffset": 668448,
+   "indexCount": 2040
+  },
+  {
+   "file": "hand_2proxph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 676608,
+   "vertexCount": 437,
+   "indexOffset": 681852,
+   "indexCount": 2709
+  },
+  {
+   "file": "hand_2midph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 692688,
+   "vertexCount": 196,
+   "indexOffset": 695040,
+   "indexCount": 1197
+  },
+  {
+   "file": "hand_2distph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 699828,
+   "vertexCount": 82,
+   "indexOffset": 700812,
+   "indexCount": 498
+  },
+  {
+   "file": "hand_3proxph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 702804,
+   "vertexCount": 441,
+   "indexOffset": 708096,
+   "indexCount": 2697
+  },
+  {
+   "file": "hand_3midph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 718884,
+   "vertexCount": 226,
+   "indexOffset": 721596,
+   "indexCount": 1374
+  },
+  {
+   "file": "hand_3distph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 727092,
+   "vertexCount": 106,
+   "indexOffset": 728364,
+   "indexCount": 621
+  },
+  {
+   "file": "hand_4proxph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 730848,
+   "vertexCount": 371,
+   "indexOffset": 735300,
+   "indexCount": 2274
+  },
+  {
+   "file": "hand_4midph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 744396,
+   "vertexCount": 190,
+   "indexOffset": 746676,
+   "indexCount": 1158
+  },
+  {
+   "file": "hand_4distph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 751308,
+   "vertexCount": 92,
+   "indexOffset": 752412,
+   "indexCount": 579
+  },
+  {
+   "file": "hand_5proxph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 754728,
+   "vertexCount": 305,
+   "indexOffset": 758388,
+   "indexCount": 1887
+  },
+  {
+   "file": "hand_5midph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 765936,
+   "vertexCount": 149,
+   "indexOffset": 767724,
+   "indexCount": 909
+  },
+  {
+   "file": "hand_5distph",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 771360,
+   "vertexCount": 77,
+   "indexOffset": 772284,
+   "indexCount": 549
+  },
+  {
+   "file": "hand_thumbprox",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 774480,
+   "vertexCount": 327,
+   "indexOffset": 778404,
+   "indexCount": 1995
+  },
+  {
+   "file": "hand_thumbdist",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 786384,
+   "vertexCount": 132,
+   "indexOffset": 787968,
+   "indexCount": 804
+  },
+  {
+   "file": "hand_1mc",
+   "body": "hand_r",
+   "segment": "hand",
+   "side": "R",
+   "vertexOffset": 791184,
+   "vertexCount": 561,
+   "indexOffset": 797916,
+   "indexCount": 3420
+  },
+  {
+   "file": "clavicle_mirror",
+   "body": "clavicle_l",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 811596,
+   "vertexCount": 185,
+   "indexOffset": 813816,
+   "indexCount": 1101
+  },
+  {
+   "file": "scapula_mirror",
+   "body": "scapula_l",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 818220,
+   "vertexCount": 632,
+   "indexOffset": 825804,
+   "indexCount": 3906
+  },
+  {
+   "file": "humerus_mirror",
+   "body": "humerus_l",
+   "segment": "upperArm",
+   "side": "L",
+   "vertexOffset": 841428,
+   "vertexCount": 288,
+   "indexOffset": 844884,
+   "indexCount": 1710
+  },
+  {
+   "file": "ulna_mirror",
+   "body": "ulna_l",
+   "segment": "forearm",
+   "side": "L",
+   "vertexOffset": 851724,
+   "vertexCount": 189,
+   "indexOffset": 853992,
+   "indexCount": 1098
+  },
+  {
+   "file": "radius_mirror",
+   "body": "radius_l",
+   "segment": "forearm",
+   "side": "L",
+   "vertexOffset": 858384,
+   "vertexCount": 184,
+   "indexOffset": 860592,
+   "indexCount": 1095
+  },
+  {
+   "file": "hand_lunate_mirror",
+   "body": "proximal_row_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 864972,
+   "vertexCount": 249,
+   "indexOffset": 867960,
+   "indexCount": 1518
+  },
+  {
+   "file": "sdfastSCAPHOIDw_mirror",
+   "body": "proximal_row_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 874032,
+   "vertexCount": 308,
+   "indexOffset": 877728,
+   "indexCount": 1875
+  },
+  {
+   "file": "sdfastPISIFORMw_mirror",
+   "body": "proximal_row_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 885228,
+   "vertexCount": 165,
+   "indexOffset": 887208,
+   "indexCount": 1155
+  },
+  {
+   "file": "sdfastTRIQUETRALw_mirror",
+   "body": "proximal_row_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 891828,
+   "vertexCount": 207,
+   "indexOffset": 894312,
+   "indexCount": 1248
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_5mc_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 899304,
+   "vertexCount": 540,
+   "indexOffset": 905784,
+   "indexCount": 3327
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_4mc_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 919092,
+   "vertexCount": 599,
+   "indexOffset": 926280,
+   "indexCount": 3645
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_3mc_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 940860,
+   "vertexCount": 728,
+   "indexOffset": 949596,
+   "indexCount": 4458
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_2mc_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 967428,
+   "vertexCount": 765,
+   "indexOffset": 976608,
+   "indexCount": 4674
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_trapezium_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 995304,
+   "vertexCount": 277,
+   "indexOffset": 998628,
+   "indexCount": 1686
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_trapezoid_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1005372,
+   "vertexCount": 183,
+   "indexOffset": 1007568,
+   "indexCount": 1101
+  },
+  {
+   "file": "sdfast_1seg_hand_fr_c_hamate_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1011972,
+   "vertexCount": 279,
+   "indexOffset": 1015320,
+   "indexCount": 1701
+  },
+  {
+   "file": "hand_capitate_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1022124,
+   "vertexCount": 334,
+   "indexOffset": 1026132,
+   "indexCount": 2040
+  },
+  {
+   "file": "hand_2proxph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1034292,
+   "vertexCount": 437,
+   "indexOffset": 1039536,
+   "indexCount": 2709
+  },
+  {
+   "file": "hand_2midph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1050372,
+   "vertexCount": 196,
+   "indexOffset": 1052724,
+   "indexCount": 1197
+  },
+  {
+   "file": "hand_2distph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1057512,
+   "vertexCount": 82,
+   "indexOffset": 1058496,
+   "indexCount": 498
+  },
+  {
+   "file": "hand_3proxph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1060488,
+   "vertexCount": 441,
+   "indexOffset": 1065780,
+   "indexCount": 2697
+  },
+  {
+   "file": "hand_3midph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1076568,
+   "vertexCount": 226,
+   "indexOffset": 1079280,
+   "indexCount": 1374
+  },
+  {
+   "file": "hand_3distph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1084776,
+   "vertexCount": 106,
+   "indexOffset": 1086048,
+   "indexCount": 621
+  },
+  {
+   "file": "hand_4proxph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1088532,
+   "vertexCount": 371,
+   "indexOffset": 1092984,
+   "indexCount": 2274
+  },
+  {
+   "file": "hand_4midph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1102080,
+   "vertexCount": 190,
+   "indexOffset": 1104360,
+   "indexCount": 1158
+  },
+  {
+   "file": "hand_4distph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1108992,
+   "vertexCount": 92,
+   "indexOffset": 1110096,
+   "indexCount": 579
+  },
+  {
+   "file": "hand_5proxph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1112412,
+   "vertexCount": 305,
+   "indexOffset": 1116072,
+   "indexCount": 1887
+  },
+  {
+   "file": "hand_5midph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1123620,
+   "vertexCount": 149,
+   "indexOffset": 1125408,
+   "indexCount": 909
+  },
+  {
+   "file": "hand_5distph_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1129044,
+   "vertexCount": 77,
+   "indexOffset": 1129968,
+   "indexCount": 549
+  },
+  {
+   "file": "hand_thumbprox_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1132164,
+   "vertexCount": 327,
+   "indexOffset": 1136088,
+   "indexCount": 1995
+  },
+  {
+   "file": "hand_thumbdist_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1144068,
+   "vertexCount": 132,
+   "indexOffset": 1145652,
+   "indexCount": 804
+  },
+  {
+   "file": "hand_1mc_mirror",
+   "body": "hand_l",
+   "segment": "hand",
+   "side": "L",
+   "vertexOffset": 1148868,
+   "vertexCount": 561,
+   "indexOffset": 1155600,
+   "indexCount": 3420
+  },
+  {
+   "file": "Rib1R",
+   "body": "rib1_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1169280,
+   "vertexCount": 61,
+   "indexOffset": 1170012,
+   "indexCount": 348
+  },
+  {
+   "file": "Rib1L",
+   "body": "rib1_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1171404,
+   "vertexCount": 839,
+   "indexOffset": 1181472,
+   "indexCount": 354
+  },
+  {
+   "file": "Rib2R",
+   "body": "rib2_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1182888,
+   "vertexCount": 57,
+   "indexOffset": 1183572,
+   "indexCount": 330
+  },
+  {
+   "file": "Rib2L",
+   "body": "rib2_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1184892,
+   "vertexCount": 57,
+   "indexOffset": 1185576,
+   "indexCount": 330
+  },
+  {
+   "file": "Rib3R",
+   "body": "rib3_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1186896,
+   "vertexCount": 85,
+   "indexOffset": 1187916,
+   "indexCount": 498
+  },
+  {
+   "file": "Rib3L",
+   "body": "rib3_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1189908,
+   "vertexCount": 85,
+   "indexOffset": 1190928,
+   "indexCount": 498
+  },
+  {
+   "file": "Rib4R",
+   "body": "rib4_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1192920,
+   "vertexCount": 81,
+   "indexOffset": 1193892,
+   "indexCount": 474
+  },
+  {
+   "file": "Rib4L",
+   "body": "rib4_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1195788,
+   "vertexCount": 81,
+   "indexOffset": 1196760,
+   "indexCount": 477
+  },
+  {
+   "file": "Rib5R",
+   "body": "rib5_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1198668,
+   "vertexCount": 85,
+   "indexOffset": 1199688,
+   "indexCount": 498
+  },
+  {
+   "file": "Rib5L",
+   "body": "rib5_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1201680,
+   "vertexCount": 85,
+   "indexOffset": 1202700,
+   "indexCount": 498
+  },
+  {
+   "file": "Rib6R",
+   "body": "rib6_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1204692,
+   "vertexCount": 85,
+   "indexOffset": 1205712,
+   "indexCount": 498
+  },
+  {
+   "file": "Rib6L",
+   "body": "rib6_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1207704,
+   "vertexCount": 85,
+   "indexOffset": 1208724,
+   "indexCount": 498
+  },
+  {
+   "file": "Rib7R",
+   "body": "rib7_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1210716,
+   "vertexCount": 83,
+   "indexOffset": 1211712,
+   "indexCount": 486
+  },
+  {
+   "file": "Rib7L",
+   "body": "rib7_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1213656,
+   "vertexCount": 84,
+   "indexOffset": 1214664,
+   "indexCount": 492
+  },
+  {
+   "file": "Rib8R",
+   "body": "rib8_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1216632,
+   "vertexCount": 85,
+   "indexOffset": 1217652,
+   "indexCount": 510
+  },
+  {
+   "file": "Rib8L",
+   "body": "rib8_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1219692,
+   "vertexCount": 85,
+   "indexOffset": 1220712,
+   "indexCount": 510
+  },
+  {
+   "file": "Rib9R",
+   "body": "rib9_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1222752,
+   "vertexCount": 87,
+   "indexOffset": 1223796,
+   "indexCount": 504
+  },
+  {
+   "file": "Rib9L",
+   "body": "rib9_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1225812,
+   "vertexCount": 87,
+   "indexOffset": 1226856,
+   "indexCount": 510
+  },
+  {
+   "file": "Rib10R",
+   "body": "rib10_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1228896,
+   "vertexCount": 87,
+   "indexOffset": 1229940,
+   "indexCount": 516
+  },
+  {
+   "file": "Rib10L",
+   "body": "rib10_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1232004,
+   "vertexCount": 87,
+   "indexOffset": 1233048,
+   "indexCount": 513
+  },
+  {
+   "file": "Rib11R",
+   "body": "rib11_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1235100,
+   "vertexCount": 78,
+   "indexOffset": 1236036,
+   "indexCount": 456
+  },
+  {
+   "file": "Rib11L",
+   "body": "rib11_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1237860,
+   "vertexCount": 78,
+   "indexOffset": 1238796,
+   "indexCount": 456
+  },
+  {
+   "file": "Rib12R",
+   "body": "rib12_R",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1240620,
+   "vertexCount": 46,
+   "indexOffset": 1241172,
+   "indexCount": 264
+  },
+  {
+   "file": "Rib12L",
+   "body": "rib12_L",
+   "segment": "trunk",
+   "side": "",
+   "vertexOffset": 1242228,
+   "vertexCount": 46,
+   "indexOffset": 1242780,
+   "indexCount": 264
+  }
+ ]
+}
